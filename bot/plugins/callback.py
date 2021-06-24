@@ -1600,15 +1600,15 @@ async def cb_about(bot, update: CallbackQuery):
 
     text=f"<i><u>Bot's Status</u></i>\n"
     text+=f"\n<b><i>Bot's Uptime:</i></b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
-    text+=f"\n<b><i>Bot Funtion:</i></b> <i>Mia Malkova</i>\n"
-    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/movizenix">@movizenix</a>\n"""
-    text+="""\n<b><i>About Dev:</i></b> <a href="https://t.me/AnnihilusOP">Saikat Singh</a>"""
+    text+=f"\n<b><i>Bot Funtion:</i></b> <i></i>\n"
+    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/Justice_league_vs_avangers_2021">@Justice_league_vs_avangers_2021</a>\n"""
+    text+="""\n<b><i>About Dev:</i></b> <a href="https://t.me/V_dhruvam">dhruvam</a>"""
 
     buttons = [
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/AnnihilusOP"
+                    "My Dev ⚡", url="https://t.me/V_dhruvam"
                 ),
                 
             InlineKeyboardButton
@@ -1639,10 +1639,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/AnnihilusOP'),
-            InlineKeyboardButton('Updates Channel 🧾', url ='https://t.me/movizenx')
+            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/V_dhruvam'),
+            InlineKeyboardButton('Updates Channel 🧾', url ='https://t.me/Justice_league_vs_avangers_2021')
         ],[
-            InlineKeyboardButton('Movie Group 🛠', url='https://t.me/MoviZenix')
+            InlineKeyboardButton('Movie Group 🛠', url='https://t.me/Justiceleague_vs_avangers_2021')
         ],[
             InlineKeyboardButton('Help ⚙', callback_data="help")
         ]]
